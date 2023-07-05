@@ -53,6 +53,7 @@
 
 .header_section {
     text-align: center;
+
 }
 
 .header_section>h1 {
@@ -62,6 +63,7 @@
 
 .header_section>p {
     margin: 20px;
+    color: #727272;
 }
 
 button {
@@ -71,7 +73,7 @@ button {
     color: white;
     border-radius: 5px;
     margin-bottom: 30px;
-
+    cursor: pointer;
 }
 
 .banner_pic {
@@ -136,6 +138,7 @@ button {
 .container_text>p {
     margin-bottom: 12px;
     padding: 2px;
+    color: #727272;
 }
 
 .container_right {
@@ -169,10 +172,12 @@ button {
 
     .container_text>p {
         margin-bottom: 2px;
+
     }
 
     .container_text>button {
         margin-top: 15px;
+        cursor: pointer;
     }
 }
 
@@ -185,6 +190,7 @@ button {
     height: 1059px;
     padding: 1;
     gap: 50px;
+
 }
 
 .line {
@@ -218,6 +224,17 @@ button {
     padding-bottom: 20px;
 }
 
+.Feature_section_right>button {
+    background-color: #FF900E;
+    border: none;
+    padding: 45px;
+    color: white;
+    border-radius: 10px;
+    margin:-97px;
+    cursor: pointer;
+
+}
+
 /*---------------
  media querry
 --------------- */
@@ -227,11 +244,9 @@ button {
         flex-direction: column;
         align-items: flex-start;
         margin: 30px;
-        /* text-align: left; */
     }
 
-
-
+    /* text-align: left; */
     .documents {
         margin-bottom: 15px;
         margin-top: 15px;
@@ -241,6 +256,14 @@ button {
     .Feature_section_right>img {
         width: 500px;
     }
+
+    .Feature_section_right>button {
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        margin: -35px;
+
+    }
 }
 
 /* some fact */
@@ -249,6 +272,8 @@ button {
     margin-left: 300px;
     font-family: var(--font);
     padding-bottom: 3rem;
+    margin-bottom: 30px;
+
 
 }
 
@@ -268,6 +293,7 @@ button {
     border-radius: 5px;
     text-align: center;
     padding: 30px;
+    color: #727272;
 }
 
 @media screen and (max-width:576px) {
@@ -276,6 +302,11 @@ button {
         grid-template-columns: repeat(2, 1fr);
         margin-bottom: 40px;
         margin-left: 30px;
+
+    }
+
+    .fact>h1 {
+        color: #727272;
     }
 
     .facts {
@@ -286,8 +317,9 @@ button {
     .some-fact {
         margin-left: 30px;
         width: 50%;
-        margin-top: 200px;
-        padding-top: 50px;
+        margin-top: 250px;
+        padding-top: 70px;
+
     }
 }
 
@@ -303,6 +335,17 @@ button {
 .sponspors>h1 {
     font-size: 32px;
     margin: 10px;
+    font-family: var(--font);
+}
+
+.sponspors>p {
+    color: #727272;
+}
+
+@media screen and (max-width:576px) {
+    .sponspors {
+        margin-left: 30px;
+    }
 }
 
 .source {
@@ -310,8 +353,12 @@ button {
     justify-content: space-evenly;
     margin: 10px 0px 90px 0px;
     background-blend-mode: overlay;
+
 }
 
+/* .source>img{
+    color: #727272;
+} */
 .sources {
     height: 5rem;
     width: 80%;
@@ -321,19 +368,22 @@ button {
     margin-bottom: 6rem;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5px;
+    border-radius: 8px;
+    color: #727272;
 }
+
 @media screen and (max-width:576px) {
     .source {
         display: flex;
-       
+        gap: 20;
         margin-left: 30px;
         padding: 30px;
-flex-wrap: wrap;
+        flex-wrap: wrap;
     }
-    .sources{
-       text-align: center;
-        margin-bottom: 5rem;
+
+    .sources {
+        text-align: center;
+        margin-bottom: 6rem;
+        height: 9rem;
     }
 }
-
