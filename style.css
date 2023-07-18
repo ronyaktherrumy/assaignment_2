@@ -222,6 +222,7 @@ button {
 
 .doc>p {
     padding-bottom: 20px;
+    color: var(--gray);
 }
 
 .Feature_section_right>button {
@@ -230,7 +231,7 @@ button {
     padding: 45px;
     color: white;
     border-radius: 10px;
-    margin:-97px;
+    margin: -97px;
     cursor: pointer;
 
 }
@@ -273,8 +274,6 @@ button {
     font-family: var(--font);
     padding-bottom: 3rem;
     margin-bottom: 30px;
-
-
 }
 
 .some-fact>p {
@@ -316,7 +315,7 @@ button {
 
     .some-fact {
         margin-left: 30px;
-        width: 50%;
+        width: 70%;
         margin-top: 250px;
         padding-top: 70px;
 
